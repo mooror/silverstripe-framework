@@ -94,6 +94,10 @@ If a variable returns a string, that string will be inserted into the template. 
 the system will attempt to render the object through its `forTemplate()` method. If the `forTemplate()` method has not 
 been defined, the system will return an error.
 
+[notice]
+When calling `get` methods with parameters you must use the full name of the method (`getFoo(param)`)  
+[/notice]
+
 [note]
 For more detail around how variables are inserted and formatted into a template see 
 [Formating, Modifying and Casting Variables](casting)
